@@ -1,0 +1,10 @@
+Utilisation encodage :
+- choisir E pour encodage
+- entrer le nom du fichier (sans l'extension .wav)
+- entrer le message (majuscules et espaces seulement) 
+/!\ Le programe renvoit une segmentation fault en lecture si le message est trop long, je pense que c'est lié à un trop petit échantillonage qui donne un tableau amplitude trop grand /!\
+
+Utilisation décodage :
+- choisir D pour encodage
+- entrer le nom du fichier (sans l'extension .wav)
+
